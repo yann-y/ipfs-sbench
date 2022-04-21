@@ -1,0 +1,18 @@
+tests:
+  # 测试的名称
+  name: EXT4
+  # 启动的线程数量
+  threadCount: 2
+  # ipfs地址
+  ipfs: http://192.168.1.141:5001
+  # 上传的文件大小
+  file:
+    # kb MB ,文件大小的单位
+    unit: GB
+    # 文件大小
+    size: 1
+    # 上传文件数目
+    number: 10
+    read_weight: 50
+    # 写入权重
+    write_weight: 50
